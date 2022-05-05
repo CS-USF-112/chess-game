@@ -17,6 +17,7 @@ ChessBasics.java -> Driver that opens game.txt
 *** doesn't work ***
 
 - txt input works perfectly when there are no empty lines (adding pieces and moving pieces work) but they cannot have a separation
+- to see an example: look how game.txt has no empty line between adding and moving pieces
 
  
 
