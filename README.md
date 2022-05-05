@@ -14,7 +14,7 @@ ChessBasics.java -> Driver that opens game.txt
 - add pieces into the board through a txt
 - move pieces using a txt
 - space detection using findPiece()
-- OutOfBoardException and OutOfBoardException
+- OutOfBoardException and IllegalChessMoveException
 - ChessPiece as an abstract class of each piece class
 
 *** doesn't work ***
