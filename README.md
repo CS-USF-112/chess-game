@@ -4,10 +4,7 @@ name: Ignacio Juarez
 date: May4 2022
 Title: Chess Game
 
-Setup.java -> Driver that opens input1.txt
-ChessMoves.java -> Driver that opens input2.txt
 ChessBasics.java -> Driver that opens game.txt
-
 
 *** works ***
 
