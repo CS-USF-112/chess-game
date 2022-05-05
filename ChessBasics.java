@@ -1,20 +1,21 @@
 import java.io.*;
 import java.util.*;
 
-public class Setup {
+public class ChessBasics {
 
     public static void main(String args[])throws FileNotFoundException
     {
         ChessBoard board = new ChessBoard();
 
         readFile(board);
+
+        System.out.println("* final board *");
         board.printBoard();
     }
 
-    // reads files and calls functions from ChessBoard
     public static void readFile(ChessBoard board) throws FileNotFoundException
     {
-        Scanner scan = new Scanner(new File("input1.txt"));
+        Scanner scan = new Scanner(new File("game.txt"));
         System.out.println("\nReading file...\n");
 
         String line;
@@ -46,6 +47,7 @@ public class Setup {
                 try 
                 {
                     board.MovePiece(col, row, newCol, newRow);
+                    board.printBoard();
                 }
                 catch (OutOfBoardException | IllegalChessMoveException ex)
                 {

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Setup {
+public class ChessMoves {
 
     public static void main(String args[])throws FileNotFoundException
     {
@@ -14,7 +14,7 @@ public class Setup {
     // reads files and calls functions from ChessBoard
     public static void readFile(ChessBoard board) throws FileNotFoundException
     {
-        Scanner scan = new Scanner(new File("input1.txt"));
+        Scanner scan = new Scanner(new File("input2.txt"));
         System.out.println("\nReading file...\n");
 
         String line;
