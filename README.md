@@ -1,4 +1,4 @@
-# ChessGame-project
+# chess-game
 
 # Features
 - abstract implementation of chess piece
